@@ -1,0 +1,229 @@
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
+    wrap_on: never, col_spacing: medium, spacing_above: small, col_widths: '{"QJOJNK":30,"XIKVFJ":30}',
+    spacing_below: small, background: ''}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - type: ColumnPanel
+    properties: {role: card, col_widths: '{}'}
+    name: card_6
+    layout_properties: {grid_position: 'ITUJQM,BNRDLT', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: MOST SOLD COMPANY, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: label_3
+      layout_properties: {grid_position: 'APMUTY,TWEYQS'}
+      data_bindings: []
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: Maruti Suzuki, font_size: 13, font: '', spacing_above: none,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: revenue_label
+      layout_properties: {grid_position: 'QWNCRK,AWGAYW'}
+  - type: ColumnPanel
+    properties: {role: card, col_widths: '{}'}
+    name: card_7
+    layout_properties: {grid_position: 'ITUJQM,ZDTODK', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: MOST SOLD MODEL, font_size: null, font: '', spacing_above: small,
+        icon_align: left, spacing_below: none, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: label_4
+      layout_properties: {grid_position: 'PKAGQX,FYTMDT'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: "Maruti Suzuki Swift Dzire \nand \nEtios Liva", font_size: 12,
+        font: '', spacing_above: none, icon_align: left, spacing_below: small, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: signups_label
+      layout_properties: {grid_position: 'TMMHLS,FVFKVQ'}
+  - type: ColumnPanel
+    properties: {role: card, col_widths: '{}'}
+    name: card_8
+    layout_properties: {grid_position: 'ITUJQM,ALKAOB JIMHIN,PDDAMZ', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: PRICE RANGE OF CARS MOST SOLD, font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: none, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: label_5
+      layout_properties: {grid_position: 'RHRFZX,CJKJIE'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: '',
+        visible: true, text: '₹ 5,50,000 - 8,90,000', font_size: 13, font: '', spacing_above: none,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: marketing_label
+      layout_properties: {grid_position: 'SCERWN,IBJOSY'}
+  - type: Label
+    properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Scroll down to find your car, best suited for yourself!',
+      font_size: 10, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+      italic: true, background: '#fbb76a', bold: true, underline: false, icon: ''}
+    name: label_7
+    layout_properties: {grid_position: 'ITUJQM,ALKAOB YAUFCE,UNBCNC'}
+  - type: ColumnPanel
+    properties: {role: card, tooltip: '', border: '', foreground: '', visible: true,
+      wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{}',
+      spacing_below: small, background: ''}
+    name: card_5
+    layout_properties: {grid_position: 'ITUJQM,PVRIBP WLARRE,USGEYX', full_width_row: true}
+    components:
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:Gray
+          800', visible: true, text: MOST FAVOURED FUEL, font_size: null, font: '',
+        spacing_above: small, icon_align: left, spacing_below: none, italic: false,
+        background: '', bold: true, underline: false, icon: ''}
+      name: label_2
+      layout_properties: {grid_position: 'KVIKJE,FJDDJS'}
+    - type: Label
+      properties: {role: null, align: center, tooltip: '', border: '', foreground: 'theme:Gray
+          800', visible: true, text: Petrol, font_size: 13, font: '', spacing_above: none,
+        icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
+        underline: false, icon: ''}
+      name: weather_label
+      layout_properties: {grid_position: 'SFNZUX,WSNLPO'}
+  - type: Label
+    properties: {role: text, align: center, tooltip: '', border: '', foreground: '',
+      visible: true, text: "Scroll to last and find your CAR \naccording to your needs!",
+      font_size: 10, font: '', spacing_above: small, icon_align: left, spacing_below: small,
+      italic: true, background: '#fbb76a', bold: true, underline: false, icon: ''}
+    name: label_8
+    layout_properties: {grid_position: 'ITUJQM,PVRIBP TILDFW,VZGCLJ'}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: 355, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+      source: '', spacing_below: small, background: '', horizontal_align: center}
+    name: image_1
+    layout_properties: {grid_position: 'HPJDEK,ZNNUAZ', full_width_row: true}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: 398.2000045776367, tooltip: '',
+      border: '', foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+      source: '', spacing_below: small, background: '', horizontal_align: center}
+    name: image_5
+    layout_properties: {grid_position: 'KUEWUW,JGCJWS'}
+  - type: Image
+    properties: {height: 283}
+    name: image_2
+    layout_properties: {grid_position: 'UJVGGL,QJOJNK', full_width_row: true}
+  - type: Image
+    properties: {role: null, vertical_align: center, height: 283, tooltip: '', border: '',
+      foreground: '', visible: true, display_mode: shrink_to_fit, spacing_above: small,
+      source: '', spacing_below: small, background: '', horizontal_align: center}
+    name: image_3
+    layout_properties: {grid_position: 'UJVGGL,XIKVFJ', full_width_row: true}
+  - type: Image
+    properties: {height: 611}
+    name: image_4
+    layout_properties: {grid_position: 'HMOYUP,HFLLGC'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: Your Budget (no commas),
+      border: '', enabled: true, foreground: '', visible: true, text: '', font_size: null,
+      font: '', spacing_above: small, type: text, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false}
+    name: budget
+    layout_properties: {grid_position: 'IZTFMW,WBRLKW'}
+    event_bindings: {}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: 'Lenth
+        of car [3700-4700 mm]', border: '', enabled: true, foreground: '', visible: true,
+      text: '', font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
+      italic: false, background: '', bold: false, underline: false}
+    name: carLength
+    layout_properties: {grid_position: 'QTWHQW,XMVLZT'}
+  - type: TextBox
+    properties: {role: null, align: left, hide_text: false, tooltip: '', placeholder: 'HorsePower
+        [30 - 800ps]', border: '', enabled: true, foreground: '', visible: true, text: '',
+      font_size: null, font: '', spacing_above: small, type: text, spacing_below: small,
+      italic: false, background: '', bold: false, underline: false}
+    name: carHP
+    layout_properties: {grid_position: 'WOHDEI,BMLYOP'}
+  - type: Label
+    properties: {role: null, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: 'Fuel Type:', font_size: null, font: '', spacing_above: small,
+      icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+      underline: false, icon: ''}
+    name: label_6
+    layout_properties: {grid_position: 'LXKYVU,DCDKXJ'}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '0', visible: true, text: CNG, font_size: null,
+      font: '', spacing_above: small, spacing_below: small, italic: false, background: '',
+      bold: false, group_name: radioGroup1, underline: false}
+    name: cng
+    layout_properties: {grid_position: 'BGNAXB,OWEVXF'}
+    event_bindings: {clicked: cng_clicked}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '1', visible: true, text: CNG + Petrol,
+      font_size: null, font: '', spacing_above: small, spacing_below: small, italic: false,
+      background: '', bold: false, group_name: radioGroup1, underline: false}
+    name: cng_pet
+    layout_properties: {grid_position: 'BGNAXB,KSNZXK'}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '2', visible: true, text: Diesel, font_size: null,
+      font: '', spacing_above: small, spacing_below: small, italic: false, background: '',
+      bold: false, group_name: radioGroup1, underline: false}
+    name: diesel
+    layout_properties: {grid_position: 'EAEKXT,BYTVTK'}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '3', visible: true, text: Electric, font_size: null,
+      font: '', spacing_above: small, spacing_below: small, italic: false, background: '',
+      bold: false, group_name: radioGroup1, underline: false}
+    name: electric
+    layout_properties: {grid_position: 'EAEKXT,KQJHSS'}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '4', visible: true, text: Hybrid, font_size: null,
+      font: '', spacing_above: small, spacing_below: small, italic: false, background: '',
+      bold: false, group_name: radioGroup1, underline: false}
+    name: hybrid
+    layout_properties: {grid_position: 'YCRSSW,UKVCUK'}
+  - type: RadioButton
+    properties: {role: null, selected: false, align: left, tooltip: '', border: '',
+      enabled: true, foreground: '', value: '5', visible: true, text: Petrol, font_size: null,
+      font: '', spacing_above: small, spacing_below: small, italic: false, background: '',
+      bold: false, group_name: radioGroup1, underline: false}
+    name: petrol
+    layout_properties: {grid_position: 'YCRSSW,ZXJTML'}
+  - type: Button
+    properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
+      foreground: '', visible: true, text: Find My Car!, font_size: null, font: '',
+      spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+      background: '', bold: false, underline: false, icon: ''}
+    name: button_1
+    layout_properties: {grid_position: 'OXBMVF,ISMDBA'}
+    event_bindings: {click: button_1_click}
+  - type: Label
+    properties: {role: subheading, align: left, tooltip: '', border: '', foreground: '',
+      visible: true, text: '', font_size: null, font: '', spacing_above: small, icon_align: left,
+      spacing_below: small, italic: false, background: '', bold: false, underline: false,
+      icon: ''}
+    name: findCar_label
+    layout_properties: {grid_position: 'AIGYEW,GWALWD'}
+- type: Label
+  properties: {role: null, align: left, tooltip: '', border: '', foreground: '', visible: true,
+    text: AUTOMOBILE INDUSTRY ANALYSIS, font_size: null, font: '', spacing_above: small,
+    icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
+    underline: false, icon: ''}
+  name: label_1
+  layout_properties: {slot: title}
+- type: Timer
+  properties: {interval: 2}
+  name: timer_1
+  event_bindings: {tick: timer_1_tick}
+is_package: true
