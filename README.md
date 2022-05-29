@@ -25,7 +25,7 @@ Anvil Link: https://anvil.works/login
 Web Application source code is downloaded as a git repository. All the files are inside the Dashboardwalkthrough folder.
 
 If there's an error in connecting to server:
-  1. Log in to Anvil's website
+  1. Log in to Anvil's website (Credential's provided in acehacker's submission)
   2. Go to 'My Apps' and select 'MS FINAL'
   3. Select 'App Browser' on Top Left
   4. Click on the ⚙ (Gear icon) below
