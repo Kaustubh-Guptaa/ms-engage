@@ -19,7 +19,8 @@ Dashboardwalkthrough
 ----------------
 
 Application Link: https://P57AXF6NWFMKFXL4.anvil.app/2QNNDNL2Z2V5JWTGV7BNON7P
-Anvil Link: https://anvil.works/build#page:start
+Anvil Link: https://anvil.works/login
+      (Credential's provided in acehacker's submission)
 
 Web Application source code is downloaded as a git repository. All the files are inside the Dashboardwalkthrough folder.
 
@@ -27,7 +28,7 @@ Web Application source code is downloaded as a git repository. All the files are
 cars_engage_2022_edited.csv
 ----------------
 
-It is the edited dataset (originally: cars_engage_2022.csv) provided on the acehacker's website. NULL values are added in the 'Make' column of the dataset.
+It is the edited dataset (originally: cars_engage_2022.csv) provided on the acehacker's website. NULL values are completed in the 'Make' column of the dataset.
 If dataset is not accessible via GitHub, download from below link:
 
 Drive: https://drive.google.com/file/d/1YOa7Ue5agZPHP695j4IkfvZwTdt5cB__/view?usp=sharing
