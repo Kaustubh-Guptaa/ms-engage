@@ -1,6 +1,7 @@
 # ms-engage
-Microsoft Engage 2022 (Sophomore Year)
-
+Microsoft Engage 2022 (Sophomore Year) 
+<br>
+![Microsoft Engage Mentee Badge](https://drive.google.com/file/d/1SpquYePWehy55on6H3FNqz8WmwpQvt94/view?usp=drive_link)
 
 ----------------
 MS_Final.ipynb
